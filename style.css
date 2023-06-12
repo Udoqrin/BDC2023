@@ -1,8 +1,6 @@
 
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital@0;1&family=Rubik&display=swap');
 
 body{
     background-color: #EDE4E0;
@@ -16,6 +14,12 @@ h1{
     align-content: center;
     font-size:3rem;
 }
+
+h2{
+  display: flex;
+  justify-content:space-around;
+}
+
 
 img {
     float:left;
