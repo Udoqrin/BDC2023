@@ -1,5 +1,55 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair&family=Rubik&display=swap');
+
 body{
     background-color: #EDE4E0;
     color: #665A48;
+    margin: 5% 15%;
+    font-family: 'Playfair', serif;
 }
 
+h1{
+    font-family: 'Rubik', sans-serif;
+    align-content: center;
+    font-size:3rem;
+}
+
+img {
+    float:left;
+    padding:30px;
+    border-radius: 40px;
+}
+
+p{
+    font-size: 1.15rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap:nowrap;
+  }
+
+  .main-nav{
+    background-color: #C8DBBE;
+    margin-bottom: 2%;
+  }
+
+  .button {
+    padding: 10px;
+    background-color: #C8DBBE;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Rubik', sans-serif;
+  }
+
+
+.slideDeck{
+
+   display: inline-block;
+}
